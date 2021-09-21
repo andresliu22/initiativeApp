@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BlueCryptor (1.0.32)
+  - BlueECC (1.2.5)
+  - BlueRSA (1.0.34)
+  - Charts (3.2.1):
+    - Charts/Core (= 3.2.1)
+  - Charts/Core (3.2.1)
+  - KituraContracts (1.2.1):
+    - LoggerAPI (~> 1.7)
+  - LoggerAPI (1.9.0):
+    - Logging (~> 1.1)
+  - Logging (1.4.0)
+  - SideMenu (6.5.0)
+  - SwiftJWT (3.5.3):
+    - BlueCryptor (~> 1.0)
+    - BlueECC (~> 1.1)
+    - BlueRSA (~> 1.0)
+    - KituraContracts (~> 1.1)
+    - LoggerAPI (~> 1.7)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts (from `https://github.com/danielgindi/Charts.git`, branch `4.0.0`)
+  - SideMenu
+  - SwiftJWT
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BlueCryptor
+    - BlueECC
+    - BlueRSA
+    - KituraContracts
+    - LoggerAPI
+    - Logging
+    - SideMenu
+    - SwiftJWT
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Charts:
+    :branch: 4.0.0
+    :git: https://github.com/danielgindi/Charts.git
+
+CHECKOUT OPTIONS:
+  Charts:
+    :commit: 9275d373136dfc98cdb365bff5280c37066df4dc
+    :git: https://github.com/danielgindi/Charts.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BlueCryptor: b0aee3d9b8f367b49b30de11cda90e1735571c24
+  BlueECC: 0d18e93347d3ec6d41416de21c1ffa4d4cd3c2cc
+  BlueRSA: 6f9776d62d9773502415a7db3bcbb2bbb3f71fc3
+  Charts: 5d168be9c09f00333e0e99475fc02545143e42d3
+  KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
+  LoggerAPI: fb78461eedac5316b290f2404d88b9d614d96c57
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SwiftJWT: 9a47a71090cae25767078756b5810e3b630aa9a7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 182a39bf0cc29e0363f4503030a5b3f2c846f942
+
+COCOAPODS: 1.9.3

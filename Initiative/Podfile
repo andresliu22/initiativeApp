@@ -1,0 +1,14 @@
+platform :ios, '11.0'
+
+target 'Initiative' do
+  use_frameworks!
+
+  # Pods for Initiative
+  
+  pod 'SwiftyJSON'
+  pod 'Alamofire'
+  pod 'SwiftJWT'
+  pod 'Charts', :git => 'https://github.com/danielgindi/Charts.git', :branch => '4.0.0'
+  pod 'SideMenu'
+  
+end
